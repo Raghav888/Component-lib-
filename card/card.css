@@ -1,0 +1,142 @@
+/* Horizontal Card */
+
+.mantra-card-holder {
+    display: flex;
+    width: var(--card-width);
+    height: auto;
+    max-height: 22rem;
+    max-width: var(--card-width-max);
+    border-radius: var(--border-radius);
+    background-color: #a9a9a9;
+}
+
+.mantra-card-holder-image {
+    max-width: 15rem;
+}
+
+.mantra-card-holder-image img {
+    border-radius: var(--border-radius);
+    width: 100%;
+    height: 100%;
+}
+
+.mantra-card-holder-text {
+    flex: 1;
+    padding: 2rem var(--padding-lg);
+    box-sizing: border-box;
+}
+
+.mantra-card-image {
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    height: var(--height-img);
+    object-fit: cover;
+}
+
+.mantra-discount {
+    margin-top: 2rem;
+    font-size: var(--txt-md);
+    font-weight: bold;
+}
+
+.mantra-card-btn {
+    margin-top: var(--margin-top-btn);
+    padding: 0rem 2rem 1rem 2rem;
+}
+
+.mantra-original {
+    text-decoration: line-through;
+    font-size: var(--txt-md);
+    color: var(--light-grey);
+    margin-left: var(--margin-left-md);
+}
+
+.mantra-price-box {
+    margin: 1rem 0;
+}
+
+
+/* Vertical Card */
+
+.mantra-vertical-card {
+    position: relative;
+    max-width: var(--card-vert-width-max);
+    height: auto;
+    box-sizing: border-box;
+    background-color: var(--txt-primary);
+    border-radius: var(--border-radius);
+}
+
+.mantra-close-icon {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    margin-right: 0px;
+    font-size: var(--txt-lg);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.mantra-card-holder-image-v {
+    flex: 1;
+}
+
+.mantra-vert-image {
+    border-radius: var(--border-radius);
+    max-inline-size: 100%;
+    block-size: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mantra-card-holder-text-vert {
+    padding: 1rem 2rem;
+}
+
+.mantra-badge-card {
+    margin: var(--margin-card-badge);
+    border-radius: 1px;
+}
+
+.mantra-text-overlay-card {
+    position: relative;
+}
+
+.card-badge {
+    background-color: var(--primary-color);
+    position: relative;
+    font-size: var(--txt-sm);
+    font-weight: bold;
+    padding: var(--padding-badge);
+    color: var(--txt-primary);
+    top: 15px;
+    margin-left: 0px;
+    left: 0px;
+    border-radius: 2px;
+}
+
+.mantra-text-overlay {
+    position: absolute;
+    top: var(--text-overlay-top);
+    left: var(--text-overlay-left);
+    font-weight: bold;
+    color: white;
+}
+
+.mantra-text-card {
+    box-sizing: border-box;
+    max-width: var(--text-overlay-maxwidth);
+    padding: var(--padding-lg);
+    background-color: #a9a9a9;
+    border-radius: var(--border-radius);
+}
+
+.mantra-card-holder-text-content {
+    font-size: 1.2rem;
+}
+
+.mantra-card-holder-text-content h2,
+.mantra-card-holder-text-content h3 {
+    margin-top: 1rem;
+}

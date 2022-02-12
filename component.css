@@ -1,0 +1,99 @@
+@import url(../component/alert/alert.css);
+@import url(../component/avatar/avatar.css);
+@import url(../component/badge/badge.css);
+@import url(../component/button/button.css);
+@import url(../component/card/card.css);
+@import url(../component/image/image.css);
+@import url(../component/input/input.css);
+@import url(../component/navbar/navbar.css);
+@import url(../component/Footer/footer.css);
+:root {
+    /* Padding Size */
+    --padding-sm: 0.5rem;
+    --padding-md: 0.8rem;
+    --padding-lg: 1rem;
+    --padding-icon: 1rem 0rem;
+    --padding-badge: 0.4rem;
+    --padding-btn-lg: 0.8rem;
+    --padding-btn-md: 0.5rem;
+    --padding-btn-sm: 0.2rem;
+    /* *************************************** */
+    /* Color Primary and Secondary */
+    --primary-color: #1299d3;
+    --secondary-color: #cee4ec;
+    /* *************************************** */
+    /*Color for alerts  */
+    --success-color: #99cc33;
+    --warning-color: #ff6347;
+    --danger-color: #ff0000;
+    /* *************************************** */
+    /* Text color */
+    --txt-primary: white;
+    --txt-dark: #0e1970;
+    /* *************************************** */
+    /* Border radius  */
+    --border-radius: 0.8rem;
+    --border-radius-textbox: 0.6rem;
+    --border-radius-circle: 50%;
+    --border-btn: 0.3rem;
+    /* *************************************** */
+    /* Margin */
+    --margin-left-md: 1rem;
+    --margin-right-md: 2rem;
+    --margin-bottom: 2rem;
+    --margin-top: 2rem;
+    /* Avatar width and height */
+    --avatar-lg: 10rem;
+    --avatar-sm: 3rem;
+    --avatar-md: 7rem;
+    /* *************************************** */
+    /* Font sizes  */
+    --txt-lg: 2.8rem;
+    --txt-md: 1.8rem;
+    --txt-sm: 0.8rem;
+    --txt-btn-md: 1rem;
+    /* *************************************** */
+    /* Position badge */
+    --left-md: 2rem;
+    --bottom-md: 4rem;
+    --left-circle-md: 7rem;
+    --width-md: 0.5rem;
+    --height-md: 0.5rem;
+    --bottom-lg: 1.6rem;
+    --left-lg: 9rem;
+    --width-lg: 0.7rem;
+    --height-lg: 0.7rem;
+    --bottom-sm: 7rem;
+    --left-sm: 3rem;
+    --width-sm: 0.3rem;
+    --height-sm: 0.3rem;
+    /* *************************************** */
+    /* Floating button */
+    --gap-btn: 2rem;
+    --width-float-btn: 4rem;
+    --height-float-btn: 4rem;
+    --bottom-float-btn: 3rem;
+    --right-float-btn: 3rem;
+    --height-float-icon: 100%;
+    --shadow: 10px 10px 5px hsl(0, 0%, 67%);
+    /* *************************************** */
+    /* Link Button */
+    --margin-link-btn: 1rem;
+    /* *************************************** */
+    /* Cards */
+    --card-width: 100%;
+    --card-width-max: 60rem;
+    --box-shadow-card: 10px 4px rgb(0 0 0 / 10%);
+    --max-width-img: 12rem;
+    --margin-top-btn: 6px;
+    --height-img: 100%;
+    --card-vert-width-max: 20rem;
+    --margin-card-badge: 2rem 0px 0px 0.7rem;
+    --text-overlay-top: 50%;
+    --text-overlay-left: 30%;
+    --text-overlay-maxwidth: 60rem;
+    /* *************************************** */
+    /* Image responsiveness */
+    --max-inline-size-img: 100%;
+    /* *************************************** */
+}
