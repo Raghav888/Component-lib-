@@ -1,12 +1,12 @@
-@import url(../component/alert/alert.css);
-@import url(../component/avatar/avatar.css);
-@import url(../component/badge/badge.css);
-@import url(../component/button/button.css);
-@import url(../component/card/card.css);
-@import url(../component/image/image.css);
-@import url(../component/input/input.css);
-@import url(../component/navbar/navbar.css);
-@import url(../component/Footer/footer.css);
+@import url(alert/alert.css);
+@import url(avatar/avatar.css);
+@import url(badge/badge.css);
+@import url(button/button.css);
+@import url(card/card.css);
+@import url(image/image.css);
+@import url(input/input.css);
+@import url(navbar/navbar.css);
+@import url(Footer/footer.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
